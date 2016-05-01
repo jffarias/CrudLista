@@ -13,17 +13,19 @@
     tools:showIn="@layout/activity_segunda">
     <EditText
         android:id="@+id/et_tarea"
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="40dp"
-        android:hint="Agregue aquí el nuevo miembro ...">
+        android:layout_marginTop="10dp"
+        android:hint="@string/hint1">
     </EditText>
 
     <Button
         android:id="@+id/btnAgregar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Agregar"/>
+        android:layout_marginTop="60dp"
+        android:text="@string/btnRecordar"/>
 </RelativeLayout>

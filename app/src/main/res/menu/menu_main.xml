@@ -3,13 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.i5.crudlista.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/menu_borrar"
+        android:title="@string/titleMenu"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_listar"
-        android:orderInCategory="100"
-        android:title="@string/action_listar"
-        app:showAsAction="never" />
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always" />
 </menu>

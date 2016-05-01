@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">CrudLista</string>
+    <string name="app_name">Recuerdame</string>
     <string name="action_settings">Settings</string>
     <string name="action_listar">Listar</string>
-    <string name="title_activity_segunda">Segunda</string>
+    <string name="title_activity_segunda">Nuevo Recordatorio</string>
+    <string name="btnRecordar">Recordar</string>
+    <string name="titleMenu">Borrar</string>
+    <string name="hint1">Agregue nuevo recordatorio</string>
 </resources>
