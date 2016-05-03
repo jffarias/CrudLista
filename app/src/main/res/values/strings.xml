@@ -4,6 +4,7 @@
     <string name="action_listar">Listar</string>
     <string name="title_activity_segunda">Nuevo Recordatorio</string>
     <string name="btnRecordar">Recordar</string>
+    <string name="btnModificar">Modificar</string>
     <string name="titleMenu">Borrar</string>
     <string name="hint1">Agregue nuevo recordatorio</string>
 </resources>

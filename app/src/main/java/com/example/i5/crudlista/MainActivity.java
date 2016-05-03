@@ -33,6 +33,13 @@ public class MainActivity extends AppCompatActivity{
     ListView lvTareas;
     protected Object noActionMode;
     public int selectedItem=-1;
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        cargar();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +56,8 @@ public class MainActivity extends AppCompatActivity{
                 startActivity(new Intent(MainActivity.this, Segunda.class));
             }
         });
-        cargar();
+        //lo quitamos por el ciclo de vida
+        //cargar();
         Notification();
 
         lvTareas = (ListView) findViewById(R.id.lista);
@@ -66,6 +74,18 @@ public class MainActivity extends AppCompatActivity{
                 view.setSelected(true);
                 view.setBackgroundColor(Color.CYAN);
                 return true;
+            }
+        });
+
+        lvTareas.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+                selectedItem = position;
+                int idModificar = Integer.parseInt(arreglo[position].split(" ")[0]);
+                Intent intent = new Intent(MainActivity.this, Modificar.class);
+                intent.putExtra("idModificar", idModificar);
+                startActivity(intent);
             }
         });
     }
