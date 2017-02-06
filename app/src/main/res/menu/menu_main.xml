@@ -1,11 +1,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.i5.crudlista.MainActivity">
+    tools:context="com.example.i5.crudlista.Recuerdame.MainActivity">
     <item
-        android:id="@+id/menu_borrar"
-        android:title="@string/titleMenu"
-        android:orderInCategory="100"
-        android:icon="@android:drawable/ic_menu_delete"
-        app:showAsAction="always" />
+        android:id="@+id/menu_detener"
+        android:title="@string/detener_notif"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/menu_iniciar"
+        android:title="@string/iniciar_notif"
+        android:orderInCategory="100"/>
 </menu>

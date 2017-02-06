@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "202612559072",
+    "firebase_url": "https://recuerdameapp.firebaseio.com",
+    "project_id": "recuerdameapp",
+    "storage_bucket": "recuerdameapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202612559072:android:a6d125a60b8621c7",
+        "android_client_info": {
+          "package_name": "com.example.i5.crudlista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202612559072-ad4nfdg9cqv3spubng9smcg1uih52542.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlHo2x8ZF2FP2n7bHFkBOBhXCUDZXrjsk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

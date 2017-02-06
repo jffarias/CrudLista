@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.i5.crudlista.addeditRecuerdame.AddEditRecuerdameActivity">
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="1"
+        android:title="@string/action_save"
+        android:icon="@mipmap/ic_done_white_48dp"
+        app:showAsAction="ifRoom" />
+</menu>
